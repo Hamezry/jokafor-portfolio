@@ -1,5 +1,9 @@
 import { Project } from "./types";
-
+import africaexchange from "../../../public/static/projects/africaexchange.png";
+import payx from "../../../public/static/projects/pay-x.png";
+import cudie from "../../../public/static/projects/cudie.png";
+import globaladmin from "../../../public/static/projects/globaladmin.png";
+import traceability from "../../../public/static/projects/traceability.png"
 export const projects: Project[] = [
   {
     name: "Africaexchange",
@@ -18,6 +22,7 @@ export const projects: Project[] = [
     ],
     source: "",
     live: "https://africaexchange.com",
+    image: africaexchange,
   },
   {
     name: "Pay-X",
@@ -37,6 +42,7 @@ export const projects: Project[] = [
     ],
     source: "",
     live: "https://payx.africaexchange.com",
+    image: payx,
   },
   {
     name: "Cudie",
@@ -55,6 +61,7 @@ export const projects: Project[] = [
     ],
     source: "",
     live: "https://cudie-admin.afexnigeria.com",
+    image: cudie,
   },
   {
     name: "Globaladmin",
@@ -63,9 +70,10 @@ export const projects: Project[] = [
       "Globaladmin is an administrative platform exclusively accessible to senior staff members. It is designed to manage activities related to commodities and other operations across various regions. The platform allows senior staff to oversee and control the entire lifecycle of commodities, including tracking, storage, processing, and distribution. Additionally, Globaladmin facilitates the management of other regional activities, ensuring that all operations are efficiently coordinated and monitored. This system enhances organizational oversight, improves operational efficiency, and supports decision-making by providing senior staff with comprehensive tools and data for managing complex activities across different regions.",
     ],
 
-    tech: ["Reactjs", "Typescript",  "Tailwindcss", "API"],
+    tech: ["Reactjs", "Typescript", "Tailwindcss", "API"],
     source: "",
     live: "https://global-admin.workbench.exchange/",
+    image: globaladmin,
   },
   {
     name: "Traceability",
@@ -77,8 +85,16 @@ export const projects: Project[] = [
     tech: ["Reactjs", "Typescript", "Tailwindcss", "API"],
     source: "",
     live: "https://traceability.workbench.exchange",
+    image: traceability,
   },
 ];
+
+
+
+
+
+
+
 
 
 

@@ -21,17 +21,17 @@ export const metadata: Metadata = {
 		url: portfolio,
 		siteName: 'James Portfolio',
 		images: [
-			// {
-			// 	url: 'https://nextjs.org/og.png', // Must be an absolute URL
-			// 	width: 800,
-			// 	height: 600,
-			// },
-			// {
-			// 	url: 'https://nextjs.org/og-alt.png', // Must be an absolute URL
-			// 	width: 1800,
-			// 	height: 1600,
-			// 	alt: 'My custom alt',
-			// },
+			{
+				url: 'https://nextjs.org/og.png', // Must be an absolute URL
+				width: 800,
+				height: 600,
+			},
+			{
+				url: 'https://nextjs.org/og-alt.png', // Must be an absolute URL
+				width: 1800,
+				height: 1600,
+				alt: 'My custom alt',
+			},
 		],
 		locale: 'en_US',
 		type: 'website',

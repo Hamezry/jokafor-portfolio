@@ -3,6 +3,7 @@ import { buttonVariants } from '@/components/ui/button';
 import Section from '../section';
 import Tech from '../tech';
 import { projects } from './data';
+import Image from 'next/image';
 
 export default function Projects() {
 	return (
@@ -18,12 +19,11 @@ export default function Projects() {
               key={project.name}
               className="border border-border rounded-md flex flex-col overflow-hidden"
             >
-              <figure
-                aria-hidden
+              <Image
+                src={project.image}
+                alt={project.name}
                 className="w-full overflow-hidden bg-primary h-96 bg-center bg-no-repeat bg-cover flex-shrink-0"
-                style={{
-                  backgroundImage: `url(/static/projects/${project.name}.png)`,
-                }}
+               
               />
               <div className="mt-4 px-4 h-full flex flex-col">
                 <h3 className="capitalize mb-0">{project.name}</h3>
