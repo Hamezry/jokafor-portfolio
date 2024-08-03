@@ -18,7 +18,7 @@ export default function Contacts() {
       />
       <Contact href="https://github.com/Hamezry" text="Github" />
       <Contact
-        href="https://www.jokafor.dev.vercel.app/jokafor.pdf"
+        href="https://www.jokafor.vercel.app/jokafor.pdf"
         text="Resume"
       />
     </div>
