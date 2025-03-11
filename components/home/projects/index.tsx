@@ -45,10 +45,10 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       className={buttonVariants({
                         variant: "link",
-                        className: "text-white hover:text-primary",
+                        className: "text-white underline font-semibold hover:text-primary",
                       })}
                     >
-                      Live
+                     View live project
                     </a>
                     {project?.source && (
                       <a

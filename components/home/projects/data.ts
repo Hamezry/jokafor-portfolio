@@ -1,10 +1,51 @@
 import { Project } from "./types";
 import africaexchange from "../../../public/static/projects/africaexchange.png";
+import afex from "../../../public/static/projects/afex.africa.png";
 import payx from "../../../public/static/projects/pay-x.png";
 import cudie from "../../../public/static/projects/cudie.png";
 import globaladmin from "../../../public/static/projects/globaladmin.png";
 import traceability from "../../../public/static/projects/traceability.png"
+import sahelAi from "../../../public/static/projects/sahel.ai.png";
 export const projects: Project[] = [
+  {
+    name: "Sahel AI",
+    paragraphs: [
+      "Sahel AI provides AI solutions for the Middle East and Africa, specifically for transactional lawyers. It helps draft and review contracts faster and more efficiently within Microsoft Word, potentially saving up to 10 hours per week. Sahel AI is also ISO 27001 certified. Please verify all details independently.",
+    ],
+    tech: [
+      "Typescript",
+      "Tailwindcss",
+      "Nextjs",
+      "Django",
+      "Docker",
+      "Cypress",
+      "Vitest",
+      "React-Testing-Library",
+    ],
+    source: "",
+    live: "https://www.sahel.ai/",
+    image: sahelAi,
+  },
+  {
+    name: "Afex Blog Website",
+    paragraphs: [
+      "AFEX is a commodity trade solutions company that promotes efficient trade and wealth creation through the commodities market. You can also explore career opportunities there. Remember to double-check for the latest information.",
+    ],
+    tech: [
+      "Typescript",
+      "Tailwindcss",
+      "Nextjs",
+      "Django",
+      "Docker",
+      "Cypress",
+      "Vitest",
+      "React-Testing-Library",
+    ],
+    source: "",
+    live: "https://www.afex.africa/",
+    image: afex,
+  },
+
   {
     name: "Africaexchange",
     paragraphs: [
@@ -88,6 +129,15 @@ export const projects: Project[] = [
     image: traceability,
   },
 ];
+
+
+
+
+
+
+
+
+
 
 
 
