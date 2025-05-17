@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    duration: "September 2024 - December 2024",
+    duration: "September 2022 - December 2024",
     company: "Sahel AI",
     title: "Frontend Developer",
     website: "https://www.linkedin.com/company/sahel-ai/",
@@ -24,7 +24,7 @@ export const experiences = [
     ],
   },
   {
-    duration: "July 2022 - December 2024",
+    duration: "May 2022 - December 2024",
     company: "AFEX",
     title: "Frontend Developer",
     website: "https://www.linkedin.com/company/afex-commodities-exchange/",
@@ -48,7 +48,7 @@ export const experiences = [
     ],
   },
   {
-    duration: "May 2022 - May 2023",
+    duration: "May 2020 - May 2023",
     company: "Mev Suite",
     title: "Frontend Developer",
     website: "https://www.linkedin.com/company/mevsuite/",
@@ -69,7 +69,7 @@ export const experiences = [
     ],
   },
   {
-    duration: "May 2021 - September 2021",
+    duration: "May 2019 - September 2020",
     company: "SideHustle.ng",
     title: "Frontend Developer",
     website: "https://www.linkedin.com/company/sidehustleng/",
