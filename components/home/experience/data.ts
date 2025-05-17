@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    duration: "September 2024 - Present",
+    duration: "September 2024 - December 2024",
     company: "Sahel AI",
     title: "Frontend Developer",
     website: "https://www.linkedin.com/company/sahel-ai/",
@@ -24,7 +24,7 @@ export const experiences = [
     ],
   },
   {
-    duration: "July 2022 - Present",
+    duration: "July 2022 - December 2024",
     company: "AFEX",
     title: "Frontend Developer",
     website: "https://www.linkedin.com/company/afex-commodities-exchange/",
@@ -81,18 +81,4 @@ export const experiences = [
     techs: ["JavaScript", "TypeScript", "React.js"],
   },
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
