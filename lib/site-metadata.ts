@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 const title = "Okafor James | Software Developer";
 const description =
-  "A software developer, with 7 years of professional exprience, dedicated to creating interactive, accessible, and responsive websites.";
+  "A software developer with professional experience, dedicated to building interactive, accessible, and responsive websites.";
 const portfolio = "https://www.jokafor.vercel.app";
 
 export const metadata: Metadata = {
