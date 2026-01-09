@@ -4,9 +4,80 @@ import afex from "../../../public/static/projects/afex.africa.png";
 import payx from "../../../public/static/projects/pay-x.png";
 import cudie from "../../../public/static/projects/cudie.png";
 import globaladmin from "../../../public/static/projects/globaladmin.png";
-import traceability from "../../../public/static/projects/traceability.png"
+import traceability from "../../../public/static/projects/traceability.png";
 import sahelAi from "../../../public/static/projects/sahel.ai.png";
+import scepterStore from "../../../public/static/LANDING PAGE.svg";
+import arrowheadPharma from "../../../public/static/projects/arrowhead.svg";
+
+import scepter360 from "../../../public/static/projects/scepter.png";
+
 export const projects: Project[] = [
+  {
+    name: "Arrowhead Pharmaceuticals",
+    paragraphs: [
+      "Arrowhead Pharmaceuticals is a forward-thinking pharmaceutical company in Nigeria transforming how healthcare providers procure, manage, and pay for medicines. We import, manufacture, and distribute high-quality generic drugs, ensuring hospitals, pharmacies, and clinics have reliable access to essential medicines.",
+      "With Arrowhead Pharmaceuticals, you get more than a supplier—you get a healthcare partner dedicated to improving operational efficiency.",
+      "Our mission is to provide affordable and reliable pharmaceutical solutions that improve operational efficiency and ensure consistent availability of essential medications for better healthcare delivery. We operate with integrity, innovation, customer centricity, and excellence.",
+    ],
+    tech: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Cypress",
+      "Vitest",
+      "React-Testing-Library",
+      "Strapi",
+      "PostgreSQL",
+      "SQL",
+    ],
+    source: "",
+    live: "https://arrowheadpharmaceuticals.ng/",
+    image: arrowheadPharma,
+  },
+  {
+    name: "Scepter360",
+    paragraphs: [
+      "Scepter360 is powering the next generation of healthcare systems. It is the world's first modular Electronic Medical Record platform, enabling healthcare providers and governments to modernize care delivery through intelligent, integrated, and infrastructure-independent solutions.",
+      "From patient management to analytics, Scepter360 provides a comprehensive suite of healthcare modules engineered for flexibility and scale.",
+    ],
+    tech: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Cypress",
+      "Vitest",
+      "React-Testing-Library",
+      "Strapi",
+      "PostgreSQL",
+      "SQL",
+    ],
+    source: "",
+    live: "https://scepter360.com/",
+    image: scepter360,
+  },
+  {
+    name: "Scepter360 Store",
+    paragraphs: [
+      "Scepter360 Store is an e-commerce platform providing a trusted source for quality pharmaceutical products with expert care. The platform is designed to ensure seamless transactions, reliable product delivery, and a user-friendly shopping experience.",
+    ],
+    tech: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Cypress",
+      "Vitest",
+      "React-Testing-Library",
+      "Strapi",
+      "PostgreSQL",
+      "SQL",
+    ],
+    source: "",
+    live: "https://store.scepter360.com/",
+    image: scepterStore,
+  },
   {
     name: "Sahel AI",
     paragraphs: [
@@ -129,33 +200,4 @@ export const projects: Project[] = [
     image: traceability,
   },
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

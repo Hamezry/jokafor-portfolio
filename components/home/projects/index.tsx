@@ -1,20 +1,20 @@
 /* eslint-disable @next/next/no-img-element */
-import { buttonVariants } from '@/components/ui/button';
-import Section from '../section';
-import Tech from '../tech';
-import { projects } from './data';
-import Image from 'next/image';
+import { buttonVariants } from "@/components/ui/button";
+import Section from "../section";
+import Tech from "../tech";
+import { projects } from "./data";
+import Image from "next/image";
 
 export default function Projects() {
-	return (
-		<Section
-			id='projects'
-			title='Projects'
-			description='These are some of the projects I have worked on over the years.'
-		>
-			<ul className='grid gap-4 grid-cols-1 sm:grid-cols-2'>
-				{projects.map((project) => {
-					return (
+  return (
+    <Section
+      id="projects"
+      title="Projects"
+      description="These are some of the projects I have worked on over the years."
+    >
+      <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2">
+        {projects.map((project) => {
+          return (
             <li
               key={project.name}
               className="border border-border rounded-md flex flex-col overflow-hidden"
@@ -22,8 +22,7 @@ export default function Projects() {
               <Image
                 src={project.image}
                 alt={project.name}
-                className="w-full overflow-hidden bg-primary h-96 bg-center bg-no-repeat bg-cover flex-shrink-0"
-               
+                className="w-full overflow-hidden bg-[#0b0a09] h-96 bg-center bg-no-repeat bg-cover flex-shrink-0"
               />
               <div className="mt-4 px-4 h-full flex flex-col">
                 <h3 className="capitalize mb-0">{project.name}</h3>
@@ -45,10 +44,11 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       className={buttonVariants({
                         variant: "link",
-                        className: "text-white underline font-semibold hover:text-primary",
+                        className:
+                          "text-white underline font-semibold hover:text-primary",
                       })}
                     >
-                     View live project
+                      View live project
                     </a>
                     {project?.source && (
                       <a
@@ -70,9 +70,9 @@ export default function Projects() {
               </div>
             </li>
           );
-				})}
-			</ul>
-		</Section>
-	);
+        })}
+      </ul>
+    </Section>
+  );
 }
 
